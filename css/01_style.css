@@ -1,3 +1,12 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.title {
+	font-size: 100px;
+}
+
 .header {
 	height: 80x;
 	background-color: #FF98F1;
@@ -37,4 +46,19 @@
 
 .header-list-right-button:hover {
 	background-color: #00000020;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  color: white;
+  padding: 0px;
+  background-color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
