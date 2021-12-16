@@ -1,64 +1,94 @@
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
+    margin: 0;
 }
-
 
 .title {
 	font-size: 100px;
 }
 
 .header {
-	height: 80x;
-	background-color: #FF98F1;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	margin: -8px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
 }
 
 .header-list {
-	width: 1000px;
-	height: 58px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+    width: 100%;
+    overflow: hidden;
+    color: #ffffff !important;
+    background-color: #ff4e26 !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.header-list-right {
-	text-align: right;
-	list-style-type: none;
+
+.header-list-button {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    outline: 0;
+    overflow: hidden;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: normal;
+    width: auto;
+    padding: 12px 24px;
 }
 
-.header-list-element {
-	display: inline;
-}
-
-.header-list-right-button {
-	text-decoration: none;
-	color: #202020;
-	background-color: #00000010;
-	padding: 10px;
-	border-radius: 5px;
-	transition: 0.1s;
-	display: inline;
-}
-
-.header-list-right-button:hover {
-	background-color: #00000020;
+.header-list-button:hover {
+    background-color: #bf2c10;
 }
 
 .container {
-  position: absolute;
-  text-align: center;
-  color: white;
-  padding: 0px;
-  background-color: black;
+	position: flex;
+	padding: 0px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+.article {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	align: center;
+	margin-top: 50px;
+	background-color: white;
+	color: black;
+}
+
+.article-text {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	align: justify;
+}
+
+.left {
+    float: left !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.image-main {
+	width: 100%;
+	opacity: 0.5;
+}
+
+.image-article {
+	width: 400px;
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
