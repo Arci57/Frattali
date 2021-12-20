@@ -73,8 +73,7 @@ body {
 .article-text {
 	float: left;
 	width: 50%;
-	height: auto;
-	max-width: 500px;
+	height: 100%;
 	text-align: justify;
 }
 
@@ -105,14 +104,14 @@ body {
 }
 
 .image-article {
-	height: 400px;
+	max-height: 400px;
 	transition: 0.2s;
 	border-radius: 50px;
 	border: 5px solid #444444;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	margin-top: 60px;
 	padding: 0;
 }
 
