@@ -79,6 +79,7 @@ body {
 
 .contact {
 	background-color: #dddddd;
+	padding: 50px;
 	height: 800px;
 }
 
@@ -113,6 +114,15 @@ body {
 	margin: auto;
 	margin-top: 60px;
 	padding: 0;
+}
+
+.input-field {
+	padding: 10px;
+	margin: 5px;
+}
+
+.input-button {
+
 }
 
 .centered {
