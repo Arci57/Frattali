@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="it">
+
 	<head>
+
 		<meta charset="utf-8">
 		<title>Frattali</title>
 
@@ -16,18 +18,20 @@
 		<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
 
 	</head>
+
 	<body>
-		<!-- navbar -->
+
+		<!-- Navbar -->
 		<div class="header">
 			<div class="header-list">
 				<a class="header-list-button" href=#>Home</a>
 				<a class="header-list-button" href=#contact>Contattaci</a>
-				<a class="header-list-button" href=#>Info</a>
-				<a class="header-list-button right" href=#>Pagina riservata</a>
+				<a class="header-list-button" href=gallery.html>Galleria</a>
+				<a class="header-list-button right" href=pagina_riservata.html>Pagina riservata</a>
 			</div>
 		</div>
 
-		<!-- image -->
+		<!-- Image -->
 		<div class="container">
 			<img class="image-main" src="img/01_main.jpg">
 			<div class="centered">
@@ -67,13 +71,15 @@
 			</div>
 		</div>
 
+		<!-- Contacts -->
 		<div id="contact" class="contact">
 			<div class="contact-box">
 				<h1>Contattaci</h1>
+				<p class="subtitle">Scrivici quello che vuoi</p>
 				<form>
 					<input class="input-field" type="text" id="name" name="name" placeholder="Nome e cognome" required=""><br>
 					<input class="input-field" type="mail" id="email" name="email" placeholder="Mail" required=""><br>
-					<input class="input-field" type="text" id="notes" name="notes" placeholder="Inserire qualche nota" required=""><br>
+					<textarea class="input-textarea" type="text" id="notes" name="notes" placeholder="Note" required=""></textarea><br>
 					<input class="input-button" type="submit" value="Invia">
 				</form>
 			</div>
