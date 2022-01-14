@@ -106,7 +106,6 @@ body {
 
 .image-article {
 	max-height: 400px;
-	transition: 0.2s;
 	border-radius: 50px;
 	border: 5px solid #444444;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);

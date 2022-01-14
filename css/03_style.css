@@ -25,7 +25,6 @@ body {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-
 .header-list-button {
 	transition: 0.2s;
 	color: #ffffff;
@@ -47,36 +46,40 @@ body {
 }
 
 .row {
-	width: 1500px;
+	max-width: 1500px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 10px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+	margin-top: 20px;
+	vertical-align: middle;
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	border: 5px solid #444444;
 }
 
 @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
 }
 
 @media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
 }
