@@ -33,7 +33,7 @@
 
 		<!-- Image -->
 		<div class="container">
-			<img class="image-main" src="img/01_main.jpg">
+			<img class="image-main" alt="Background" src="img/01_main.jpg">
 			<div class="centered">
 				<div class="title">
 					<h1>FRATTALI</h1>
@@ -41,19 +41,19 @@
 			</div>
 		</div>
 
-		<div class="article">
+		<div "whatisit" class="article">
 			<div class="article-text">
 				<h1>Cosa sono?</h1>
 				<p>Un frattale è una figura geometrica che si ripete all’infinito uguale a sé stessa, su scala sempre più piccola. Per chiarire il concetto, Possiamo vedere queste due immagini il <a href="https://robitex.files.wordpress.com/2009/11/koch.png"><i>fiocco di neve di von Koch</i></a> e il <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Sierpinsky_triangle_%28evolution%29.png/1920px-Sierpinsky_triangle_%28evolution%29.png"><i>triangolo di Sierpinski</i></a>.<br> Come abbiamo visto con il fiocco di neve, un frattale è una figura ottenuta con un passaggio al limite; tutti i passaggi prima di arrivare al frattale sono chiamati prefrattali.<br>Dato che ovviamente non si possono eseguire nella pratica infinite iterazioni, un frattale si può sempre e solo concepire, immaginare e studiare matematicamente, ma mai rappresentare.</p>
 			</div>
 			<div class="article-text">
-				<img class="image-article" src=img/02_CosaSono.jpg>
+				<img class="image-article" alt="Frattale" src=img/02_CosaSono.jpg>
 			</div>
 		</div>
 
-		<div class="article">
+		<div id="art" class="article">
 			<div class="article-text">
-				<img class="image-article" src=img/03_InMatematica.jpg>
+				<img class="image-article" alt="Arte" src=img/03_NellArte.jpg>
 			</div>
 			<div class="article-text">
 				<h1>Nell'arte e nella società</h1>
@@ -61,14 +61,31 @@
 			</div>
 		</div>
 
-		<div class="article">
+		<div id="nature" class="article">
 			<div class="article-text">
 				<h1>In natura</h1>
 				<p>I frattali esistono anche naturalmente. Per esempio possiamo vedere un albero come una sorta di frattale, ogni ramo somiglia al fusto, ogni rametto somiglia ad un altro ramo e così via. <br> Sono anche presenti nelle coste, nelle nuvole e nei fiocchi di neve.</p>
 				<p>Un altro esempio di frattale in natura è il broccolo romanesco come si può vedere nella figura a destra.</p>
 			</div>
 			<div class="article-text">
-				<img class="image-article" src=img/04_Broccoli.jpg>
+				<img class="image-article" alt="Broccoli" src=img/04_Broccoli.jpg>
+			</div>
+		</div>
+
+		<div id="sources" class="article">
+			<div class="article-text">
+				<img class="image-article" alt="Fonti" src=img/05_Fonti.png>
+			</div>
+			<div class="article-text">
+				<h1>Fonti</h1>
+				<p>
+				Lista dei siti usati:
+				<ul>
+					<li><a href="https://it.wikipedia.org/wiki/Frattale/">Wikipedia</a></li>
+					<li><a href="https://www.treccani.it/enciclopedia/frattale/">Treccani</a></li>
+					<li><a href="https://aulascienze.scuola.zanichelli.it/come-te-lo-spiego/2017/02/16/i-frattali-matematica-arte-e-scienza/">Zanichelli</a></li>
+				</ul>
+				</p>
 			</div>
 		</div>
 
@@ -78,9 +95,9 @@
 				<h1>Contattaci</h1>
 				<p class="subtitle">Scrivici quello che vuoi</p>
 				<form>
-					<input class="input-field" type="text" id="name" name="name" placeholder="Es: Mario Clima" required=""><br>
-					<input class="input-field" type="mail" id="email" name="email" placeholder="Es: Mario.Clima@example.com" required=""><br>
-					<textarea class="input-textarea" type="text" id="notes" name="notes" placeholder="Note" required=""></textarea><br>
+					<input class="input-field" type="text" id="name" name="name" placeholder="Nome e cognome" required=""><br>
+					<input class="input-field" type="text" id="email" name="email" placeholder="Email" required=""><br>
+					<textarea class="input-textarea" id="notes" name="notes" placeholder="Note" required=""></textarea><br><br>
 					<input class="input-button" type="submit" value="Invia">
 				</form>
 			</div>
